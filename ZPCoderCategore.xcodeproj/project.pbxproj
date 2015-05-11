@@ -1,0 +1,1035 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C874737C1B00996F00901AB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C874737B1B00996F00901AB7 /* main.m */; };
+		C87473821B00996F00901AB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473811B00996F00901AB7 /* ViewController.m */; };
+		C87473851B00996F00901AB7 /* MainTabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87473831B00996F00901AB7 /* MainTabBarController.storyboard */; };
+		C87473871B00996F00901AB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87473861B00996F00901AB7 /* Images.xcassets */; };
+		C874738A1B00996F00901AB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C87473881B00996F00901AB7 /* LaunchScreen.xib */; };
+		C87473961B00996F00901AB7 /* ZPCoderCategoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473951B00996F00901AB7 /* ZPCoderCategoreTests.m */; };
+		C874744C1B00998100901AB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473A21B00998000901AB7 /* AppDelegate.m */; };
+		C874744D1B00998100901AB7 /* CALayer+ZPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473A61B00998000901AB7 /* CALayer+ZPAddition.m */; };
+		C874744E1B00998100901AB7 /* NSArray+ZPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473A91B00998000901AB7 /* NSArray+ZPAddition.m */; };
+		C874744F1B00998100901AB7 /* NSDate+ZPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473AC1B00998000901AB7 /* NSDate+ZPAddition.m */; };
+		C87474501B00998100901AB7 /* NSDictionary+ZPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473AF1B00998000901AB7 /* NSDictionary+ZPAddition.m */; };
+		C87474511B00998100901AB7 /* NSString+ZPPathAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473B21B00998000901AB7 /* NSString+ZPPathAddition.m */; };
+		C87474521B00998100901AB7 /* UIBarButtonItem+ZPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473B51B00998000901AB7 /* UIBarButtonItem+ZPAddition.m */; };
+		C87474531B00998100901AB7 /* UIImage+ZPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473B81B00998000901AB7 /* UIImage+ZPAddition.m */; };
+		C87474541B00998100901AB7 /* UILabel+ZPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473BB1B00998000901AB7 /* UILabel+ZPAddition.m */; };
+		C87474551B00998100901AB7 /* UIView+ZPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473BE1B00998000901AB7 /* UIView+ZPAddition.m */; };
+		C87474561B00998100901AB7 /* UIWindow+ZPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473C11B00998000901AB7 /* UIWindow+ZPAddition.m */; };
+		C87474571B00998100901AB7 /* NSObject+ZPCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473C51B00998000901AB7 /* NSObject+ZPCoding.m */; };
+		C87474581B00998100901AB7 /* NSObject+ZPKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473C71B00998000901AB7 /* NSObject+ZPKeyValue.m */; };
+		C87474591B00998100901AB7 /* NSObject+ZPMember.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473C91B00998000901AB7 /* NSObject+ZPMember.m */; };
+		C874745A1B00998100901AB7 /* ZPTypeEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473CB1B00998000901AB7 /* ZPTypeEncoding.m */; };
+		C874745B1B00998100901AB7 /* ZPArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473CD1B00998000901AB7 /* ZPArgument.m */; };
+		C874745C1B00998100901AB7 /* ZPConst.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473CF1B00998000901AB7 /* ZPConst.m */; };
+		C874745D1B00998100901AB7 /* ZPFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473D21B00998000901AB7 /* ZPFoundation.m */; };
+		C874745E1B00998100901AB7 /* ZPIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473D41B00998000901AB7 /* ZPIvar.m */; };
+		C874745F1B00998100901AB7 /* ZPMember.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473D61B00998000901AB7 /* ZPMember.m */; };
+		C87474601B00998100901AB7 /* ZPMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473D81B00998000901AB7 /* ZPMethod.m */; };
+		C87474611B00998100901AB7 /* ZPNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473DA1B00998000901AB7 /* ZPNumber.m */; };
+		C87474621B00998100901AB7 /* ZPType.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473DC1B00998000901AB7 /* ZPType.m */; };
+		C87474631B00998100901AB7 /* ZPAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473E01B00998000901AB7 /* ZPAudioTool.m */; };
+		C87474641B00998100901AB7 /* ZPPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C87473E31B00998000901AB7 /* ZPPopMenu.m */; };
+		C874746A1B00998100901AB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C874742D1B00998100901AB7 /* Images.xcassets */; };
+		C874746B1B00998100901AB7 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C87474331B00998100901AB7 /* CLIColor.m */; };
+		C874746C1B00998100901AB7 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C87474361B00998100901AB7 /* DDAbstractDatabaseLogger.m */; };
+		C874746D1B00998100901AB7 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = C87474381B00998100901AB7 /* DDASLLogCapture.m */; };
+		C874746E1B00998100901AB7 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C874743A1B00998100901AB7 /* DDASLLogger.m */; };
+		C874746F1B00998100901AB7 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C874743D1B00998100901AB7 /* DDFileLogger.m */; };
+		C87474701B00998100901AB7 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C87474411B00998100901AB7 /* DDLog.m */; };
+		C87474711B00998100901AB7 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C87474441B00998100901AB7 /* DDTTYLogger.m */; };
+		C87474721B00998100901AB7 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C87474471B00998100901AB7 /* DDContextFilterLogFormatter.m */; };
+		C87474731B00998100901AB7 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C87474491B00998100901AB7 /* DDDispatchQueueLogFormatter.m */; };
+		C87474741B00998100901AB7 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C874744B1B00998100901AB7 /* DDMultiFormatter.m */; };
+		C8EE060C1B011D0000897A36 /* SKCaptureCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EE060B1B011D0000897A36 /* SKCaptureCodeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C87473901B00996F00901AB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C874736E1B00996F00901AB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87473751B00996F00901AB7;
+			remoteInfo = ZPCoderCategore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C87473761B00996F00901AB7 /* ZPCoderCategore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPCoderCategore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C874737A1B00996F00901AB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C874737B1B00996F00901AB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C87473801B00996F00901AB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C87473811B00996F00901AB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C87473841B00996F00901AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainTabBarController.storyboard; sourceTree = "<group>"; };
+		C87473861B00996F00901AB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C87473891B00996F00901AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C874738F1B00996F00901AB7 /* ZPCoderCategoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPCoderCategoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87473941B00996F00901AB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87473951B00996F00901AB7 /* ZPCoderCategoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPCoderCategoreTests.m; sourceTree = "<group>"; };
+		C87473A11B00998000901AB7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C87473A21B00998000901AB7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C87473A51B00998000901AB7 /* CALayer+ZPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+ZPAddition.h"; sourceTree = "<group>"; };
+		C87473A61B00998000901AB7 /* CALayer+ZPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+ZPAddition.m"; sourceTree = "<group>"; };
+		C87473A81B00998000901AB7 /* NSArray+ZPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZPAddition.h"; sourceTree = "<group>"; };
+		C87473A91B00998000901AB7 /* NSArray+ZPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ZPAddition.m"; sourceTree = "<group>"; };
+		C87473AB1B00998000901AB7 /* NSDate+ZPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZPAddition.h"; sourceTree = "<group>"; };
+		C87473AC1B00998000901AB7 /* NSDate+ZPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZPAddition.m"; sourceTree = "<group>"; };
+		C87473AE1B00998000901AB7 /* NSDictionary+ZPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZPAddition.h"; sourceTree = "<group>"; };
+		C87473AF1B00998000901AB7 /* NSDictionary+ZPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZPAddition.m"; sourceTree = "<group>"; };
+		C87473B11B00998000901AB7 /* NSString+ZPPathAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZPPathAddition.h"; sourceTree = "<group>"; };
+		C87473B21B00998000901AB7 /* NSString+ZPPathAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZPPathAddition.m"; sourceTree = "<group>"; };
+		C87473B41B00998000901AB7 /* UIBarButtonItem+ZPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZPAddition.h"; sourceTree = "<group>"; };
+		C87473B51B00998000901AB7 /* UIBarButtonItem+ZPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZPAddition.m"; sourceTree = "<group>"; };
+		C87473B71B00998000901AB7 /* UIImage+ZPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZPAddition.h"; sourceTree = "<group>"; };
+		C87473B81B00998000901AB7 /* UIImage+ZPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZPAddition.m"; sourceTree = "<group>"; };
+		C87473BA1B00998000901AB7 /* UILabel+ZPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZPAddition.h"; sourceTree = "<group>"; };
+		C87473BB1B00998000901AB7 /* UILabel+ZPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZPAddition.m"; sourceTree = "<group>"; };
+		C87473BD1B00998000901AB7 /* UIView+ZPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZPAddition.h"; sourceTree = "<group>"; };
+		C87473BE1B00998000901AB7 /* UIView+ZPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZPAddition.m"; sourceTree = "<group>"; };
+		C87473C01B00998000901AB7 /* UIWindow+ZPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+ZPAddition.h"; sourceTree = "<group>"; };
+		C87473C11B00998000901AB7 /* UIWindow+ZPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+ZPAddition.m"; sourceTree = "<group>"; };
+		C87473C41B00998000901AB7 /* NSObject+ZPCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZPCoding.h"; sourceTree = "<group>"; };
+		C87473C51B00998000901AB7 /* NSObject+ZPCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZPCoding.m"; sourceTree = "<group>"; };
+		C87473C61B00998000901AB7 /* NSObject+ZPKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZPKeyValue.h"; sourceTree = "<group>"; };
+		C87473C71B00998000901AB7 /* NSObject+ZPKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZPKeyValue.m"; sourceTree = "<group>"; };
+		C87473C81B00998000901AB7 /* NSObject+ZPMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZPMember.h"; sourceTree = "<group>"; };
+		C87473C91B00998000901AB7 /* NSObject+ZPMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZPMember.m"; sourceTree = "<group>"; };
+		C87473CA1B00998000901AB7 /* ZPTypeEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPTypeEncoding.h; sourceTree = "<group>"; };
+		C87473CB1B00998000901AB7 /* ZPTypeEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPTypeEncoding.m; sourceTree = "<group>"; };
+		C87473CC1B00998000901AB7 /* ZPArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPArgument.h; sourceTree = "<group>"; };
+		C87473CD1B00998000901AB7 /* ZPArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPArgument.m; sourceTree = "<group>"; };
+		C87473CE1B00998000901AB7 /* ZPConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPConst.h; sourceTree = "<group>"; };
+		C87473CF1B00998000901AB7 /* ZPConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPConst.m; sourceTree = "<group>"; };
+		C87473D01B00998000901AB7 /* ZPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPExtension.h; sourceTree = "<group>"; };
+		C87473D11B00998000901AB7 /* ZPFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPFoundation.h; sourceTree = "<group>"; };
+		C87473D21B00998000901AB7 /* ZPFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPFoundation.m; sourceTree = "<group>"; };
+		C87473D31B00998000901AB7 /* ZPIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPIvar.h; sourceTree = "<group>"; };
+		C87473D41B00998000901AB7 /* ZPIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPIvar.m; sourceTree = "<group>"; };
+		C87473D51B00998000901AB7 /* ZPMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPMember.h; sourceTree = "<group>"; };
+		C87473D61B00998000901AB7 /* ZPMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPMember.m; sourceTree = "<group>"; };
+		C87473D71B00998000901AB7 /* ZPMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPMethod.h; sourceTree = "<group>"; };
+		C87473D81B00998000901AB7 /* ZPMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPMethod.m; sourceTree = "<group>"; };
+		C87473D91B00998000901AB7 /* ZPNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPNumber.h; sourceTree = "<group>"; };
+		C87473DA1B00998000901AB7 /* ZPNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPNumber.m; sourceTree = "<group>"; };
+		C87473DB1B00998000901AB7 /* ZPType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPType.h; sourceTree = "<group>"; };
+		C87473DC1B00998000901AB7 /* ZPType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPType.m; sourceTree = "<group>"; };
+		C87473DF1B00998000901AB7 /* ZPAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPAudioTool.h; sourceTree = "<group>"; };
+		C87473E01B00998000901AB7 /* ZPAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPAudioTool.m; sourceTree = "<group>"; };
+		C87473E21B00998000901AB7 /* ZPPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPPopMenu.h; sourceTree = "<group>"; };
+		C87473E31B00998000901AB7 /* ZPPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPPopMenu.m; sourceTree = "<group>"; };
+		C87473E51B00998000901AB7 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		C87473F31B00998000901AB7 /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		C87473F41B00998000901AB7 /* NotificationMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationMacro.h; sourceTree = "<group>"; };
+		C87473F51B00998000901AB7 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		C87473F61B00998000901AB7 /* UtilsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		C87473F71B00998000901AB7 /* VendorMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VendorMacro.h; sourceTree = "<group>"; };
+		C87473F81B00998000901AB7 /* ZPDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPDef.h; sourceTree = "<group>"; };
+		C874742D1B00998100901AB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C87474321B00998100901AB7 /* CLIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIColor.h; sourceTree = "<group>"; };
+		C87474331B00998100901AB7 /* CLIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIColor.m; sourceTree = "<group>"; };
+		C87474341B00998100901AB7 /* CocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLumberjack.h; sourceTree = "<group>"; };
+		C87474351B00998100901AB7 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		C87474361B00998100901AB7 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		C87474371B00998100901AB7 /* DDASLLogCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogCapture.h; sourceTree = "<group>"; };
+		C87474381B00998100901AB7 /* DDASLLogCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogCapture.m; sourceTree = "<group>"; };
+		C87474391B00998100901AB7 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		C874743A1B00998100901AB7 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		C874743B1B00998100901AB7 /* DDAssertMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAssertMacros.h; sourceTree = "<group>"; };
+		C874743C1B00998100901AB7 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		C874743D1B00998100901AB7 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		C874743E1B00998100901AB7 /* DDLegacyMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLegacyMacros.h; sourceTree = "<group>"; };
+		C874743F1B00998100901AB7 /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
+		C87474401B00998100901AB7 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		C87474411B00998100901AB7 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		C87474421B00998100901AB7 /* DDLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLogMacros.h; sourceTree = "<group>"; };
+		C87474431B00998100901AB7 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		C87474441B00998100901AB7 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		C87474461B00998100901AB7 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		C87474471B00998100901AB7 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		C87474481B00998100901AB7 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		C87474491B00998100901AB7 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		C874744A1B00998100901AB7 /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
+		C874744B1B00998100901AB7 /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
+		C8EE060A1B011D0000897A36 /* SKCaptureCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCaptureCodeView.h; sourceTree = "<group>"; };
+		C8EE060B1B011D0000897A36 /* SKCaptureCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCaptureCodeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C87473731B00996F00901AB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C874738C1B00996F00901AB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C874736D1B00996F00901AB7 = {
+			isa = PBXGroup;
+			children = (
+				C87473781B00996F00901AB7 /* ZPCoderCategore */,
+				C87473921B00996F00901AB7 /* ZPCoderCategoreTests */,
+				C87473771B00996F00901AB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C87473771B00996F00901AB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87473761B00996F00901AB7 /* ZPCoderCategore.app */,
+				C874738F1B00996F00901AB7 /* ZPCoderCategoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87473781B00996F00901AB7 /* ZPCoderCategore */ = {
+			isa = PBXGroup;
+			children = (
+				C874739F1B00998000901AB7 /* classes */,
+				C87473801B00996F00901AB7 /* ViewController.h */,
+				C87473811B00996F00901AB7 /* ViewController.m */,
+				C87473831B00996F00901AB7 /* MainTabBarController.storyboard */,
+				C87473861B00996F00901AB7 /* Images.xcassets */,
+				C87473881B00996F00901AB7 /* LaunchScreen.xib */,
+				C87473791B00996F00901AB7 /* Supporting Files */,
+			);
+			path = ZPCoderCategore;
+			sourceTree = "<group>";
+		};
+		C87473791B00996F00901AB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C874737A1B00996F00901AB7 /* Info.plist */,
+				C874737B1B00996F00901AB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C87473921B00996F00901AB7 /* ZPCoderCategoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				C87473951B00996F00901AB7 /* ZPCoderCategoreTests.m */,
+				C87473931B00996F00901AB7 /* Supporting Files */,
+			);
+			path = ZPCoderCategoreTests;
+			sourceTree = "<group>";
+		};
+		C87473931B00996F00901AB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C87473941B00996F00901AB7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C874739F1B00998000901AB7 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				C87473A01B00998000901AB7 /* AppDelegate */,
+				C87473A31B00998000901AB7 /* Categories */,
+				C87473C21B00998000901AB7 /* Helper */,
+				C87473F11B00998000901AB7 /* Macro */,
+				C87473F91B00998000901AB7 /* Module */,
+				C87474271B00998100901AB7 /* Resources */,
+				C874742F1B00998100901AB7 /* Vendors */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		C87473A01B00998000901AB7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C87473A11B00998000901AB7 /* AppDelegate.h */,
+				C87473A21B00998000901AB7 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C87473A31B00998000901AB7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C87473A41B00998000901AB7 /* CALayerAddition */,
+				C87473A71B00998000901AB7 /* NSArrayAddition */,
+				C87473AA1B00998000901AB7 /* NSDateAddition */,
+				C87473AD1B00998000901AB7 /* NSDictionaryAddition */,
+				C87473B01B00998000901AB7 /* NSStringPathAddition */,
+				C87473B31B00998000901AB7 /* UIBarButtonItemAddition */,
+				C87473B61B00998000901AB7 /* UIImageAddtion */,
+				C87473B91B00998000901AB7 /* UILabelAddition */,
+				C87473BC1B00998000901AB7 /* UIViewAddition */,
+				C87473BF1B00998000901AB7 /* UIWindowAddition */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		C87473A41B00998000901AB7 /* CALayerAddition */ = {
+			isa = PBXGroup;
+			children = (
+				C87473A51B00998000901AB7 /* CALayer+ZPAddition.h */,
+				C87473A61B00998000901AB7 /* CALayer+ZPAddition.m */,
+			);
+			path = CALayerAddition;
+			sourceTree = "<group>";
+		};
+		C87473A71B00998000901AB7 /* NSArrayAddition */ = {
+			isa = PBXGroup;
+			children = (
+				C87473A81B00998000901AB7 /* NSArray+ZPAddition.h */,
+				C87473A91B00998000901AB7 /* NSArray+ZPAddition.m */,
+			);
+			path = NSArrayAddition;
+			sourceTree = "<group>";
+		};
+		C87473AA1B00998000901AB7 /* NSDateAddition */ = {
+			isa = PBXGroup;
+			children = (
+				C87473AB1B00998000901AB7 /* NSDate+ZPAddition.h */,
+				C87473AC1B00998000901AB7 /* NSDate+ZPAddition.m */,
+			);
+			path = NSDateAddition;
+			sourceTree = "<group>";
+		};
+		C87473AD1B00998000901AB7 /* NSDictionaryAddition */ = {
+			isa = PBXGroup;
+			children = (
+				C87473AE1B00998000901AB7 /* NSDictionary+ZPAddition.h */,
+				C87473AF1B00998000901AB7 /* NSDictionary+ZPAddition.m */,
+			);
+			path = NSDictionaryAddition;
+			sourceTree = "<group>";
+		};
+		C87473B01B00998000901AB7 /* NSStringPathAddition */ = {
+			isa = PBXGroup;
+			children = (
+				C87473B11B00998000901AB7 /* NSString+ZPPathAddition.h */,
+				C87473B21B00998000901AB7 /* NSString+ZPPathAddition.m */,
+			);
+			path = NSStringPathAddition;
+			sourceTree = "<group>";
+		};
+		C87473B31B00998000901AB7 /* UIBarButtonItemAddition */ = {
+			isa = PBXGroup;
+			children = (
+				C87473B41B00998000901AB7 /* UIBarButtonItem+ZPAddition.h */,
+				C87473B51B00998000901AB7 /* UIBarButtonItem+ZPAddition.m */,
+			);
+			path = UIBarButtonItemAddition;
+			sourceTree = "<group>";
+		};
+		C87473B61B00998000901AB7 /* UIImageAddtion */ = {
+			isa = PBXGroup;
+			children = (
+				C87473B71B00998000901AB7 /* UIImage+ZPAddition.h */,
+				C87473B81B00998000901AB7 /* UIImage+ZPAddition.m */,
+			);
+			path = UIImageAddtion;
+			sourceTree = "<group>";
+		};
+		C87473B91B00998000901AB7 /* UILabelAddition */ = {
+			isa = PBXGroup;
+			children = (
+				C87473BA1B00998000901AB7 /* UILabel+ZPAddition.h */,
+				C87473BB1B00998000901AB7 /* UILabel+ZPAddition.m */,
+			);
+			path = UILabelAddition;
+			sourceTree = "<group>";
+		};
+		C87473BC1B00998000901AB7 /* UIViewAddition */ = {
+			isa = PBXGroup;
+			children = (
+				C8EE060A1B011D0000897A36 /* SKCaptureCodeView.h */,
+				C8EE060B1B011D0000897A36 /* SKCaptureCodeView.m */,
+				C87473BD1B00998000901AB7 /* UIView+ZPAddition.h */,
+				C87473BE1B00998000901AB7 /* UIView+ZPAddition.m */,
+			);
+			path = UIViewAddition;
+			sourceTree = "<group>";
+		};
+		C87473BF1B00998000901AB7 /* UIWindowAddition */ = {
+			isa = PBXGroup;
+			children = (
+				C87473C01B00998000901AB7 /* UIWindow+ZPAddition.h */,
+				C87473C11B00998000901AB7 /* UIWindow+ZPAddition.m */,
+			);
+			path = UIWindowAddition;
+			sourceTree = "<group>";
+		};
+		C87473C21B00998000901AB7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C87473C31B00998000901AB7 /* Extension */,
+				C87473DD1B00998000901AB7 /* ToolClass */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C87473C31B00998000901AB7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C87473C41B00998000901AB7 /* NSObject+ZPCoding.h */,
+				C87473C51B00998000901AB7 /* NSObject+ZPCoding.m */,
+				C87473C61B00998000901AB7 /* NSObject+ZPKeyValue.h */,
+				C87473C71B00998000901AB7 /* NSObject+ZPKeyValue.m */,
+				C87473C81B00998000901AB7 /* NSObject+ZPMember.h */,
+				C87473C91B00998000901AB7 /* NSObject+ZPMember.m */,
+				C87473CA1B00998000901AB7 /* ZPTypeEncoding.h */,
+				C87473CB1B00998000901AB7 /* ZPTypeEncoding.m */,
+				C87473CC1B00998000901AB7 /* ZPArgument.h */,
+				C87473CD1B00998000901AB7 /* ZPArgument.m */,
+				C87473CE1B00998000901AB7 /* ZPConst.h */,
+				C87473CF1B00998000901AB7 /* ZPConst.m */,
+				C87473D01B00998000901AB7 /* ZPExtension.h */,
+				C87473D11B00998000901AB7 /* ZPFoundation.h */,
+				C87473D21B00998000901AB7 /* ZPFoundation.m */,
+				C87473D31B00998000901AB7 /* ZPIvar.h */,
+				C87473D41B00998000901AB7 /* ZPIvar.m */,
+				C87473D51B00998000901AB7 /* ZPMember.h */,
+				C87473D61B00998000901AB7 /* ZPMember.m */,
+				C87473D71B00998000901AB7 /* ZPMethod.h */,
+				C87473D81B00998000901AB7 /* ZPMethod.m */,
+				C87473D91B00998000901AB7 /* ZPNumber.h */,
+				C87473DA1B00998000901AB7 /* ZPNumber.m */,
+				C87473DB1B00998000901AB7 /* ZPType.h */,
+				C87473DC1B00998000901AB7 /* ZPType.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C87473DD1B00998000901AB7 /* ToolClass */ = {
+			isa = PBXGroup;
+			children = (
+				C87473DE1B00998000901AB7 /* AudioTool */,
+				C87473E11B00998000901AB7 /* PopMenu */,
+				C87473E41B00998000901AB7 /* Singleton */,
+			);
+			path = ToolClass;
+			sourceTree = "<group>";
+		};
+		C87473DE1B00998000901AB7 /* AudioTool */ = {
+			isa = PBXGroup;
+			children = (
+				C87473DF1B00998000901AB7 /* ZPAudioTool.h */,
+				C87473E01B00998000901AB7 /* ZPAudioTool.m */,
+			);
+			path = AudioTool;
+			sourceTree = "<group>";
+		};
+		C87473E11B00998000901AB7 /* PopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C87473E21B00998000901AB7 /* ZPPopMenu.h */,
+				C87473E31B00998000901AB7 /* ZPPopMenu.m */,
+			);
+			path = PopMenu;
+			sourceTree = "<group>";
+		};
+		C87473E41B00998000901AB7 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				C87473E51B00998000901AB7 /* Singleton.h */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		C87473F11B00998000901AB7 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				C87473F21B00998000901AB7 /* Common */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		C87473F21B00998000901AB7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C87473F31B00998000901AB7 /* AppMacro.h */,
+				C87473F41B00998000901AB7 /* NotificationMacro.h */,
+				C87473F51B00998000901AB7 /* Prefix.pch */,
+				C87473F61B00998000901AB7 /* UtilsMacro.h */,
+				C87473F71B00998000901AB7 /* VendorMacro.h */,
+				C87473F81B00998000901AB7 /* ZPDef.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C87473F91B00998000901AB7 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				C87473FA1B00998000901AB7 /* Base */,
+				C87474021B00998000901AB7 /* Home */,
+				C87474131B00998100901AB7 /* Main */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		C87473FA1B00998000901AB7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C87473FB1B00998000901AB7 /* Controller */,
+				C87473FC1B00998000901AB7 /* Model */,
+				C87473FD1B00998000901AB7 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C87473FB1B00998000901AB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C87473FC1B00998000901AB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C87473FD1B00998000901AB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C87474021B00998000901AB7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C87474071B00998100901AB7 /* Controller */,
+				C87474091B00998100901AB7 /* Model */,
+				C87474121B00998100901AB7 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C87474071B00998100901AB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C87474091B00998100901AB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C87474121B00998100901AB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C87474131B00998100901AB7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C87474141B00998100901AB7 /* Controller */,
+				C87474151B00998100901AB7 /* Model */,
+				C87474161B00998100901AB7 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C87474141B00998100901AB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C87474151B00998100901AB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C87474161B00998100901AB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C87474271B00998100901AB7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C87474281B00998100901AB7 /* Audio */,
+				C87474291B00998100901AB7 /* File */,
+				C874742C1B00998100901AB7 /* Graphic */,
+				C874742E1B00998100901AB7 /* NibSource */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C87474281B00998100901AB7 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		C87474291B00998100901AB7 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				C874742A1B00998100901AB7 /* Json */,
+				C874742B1B00998100901AB7 /* Plist */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		C874742A1B00998100901AB7 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		C874742B1B00998100901AB7 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		C874742C1B00998100901AB7 /* Graphic */ = {
+			isa = PBXGroup;
+			children = (
+				C874742D1B00998100901AB7 /* Images.xcassets */,
+			);
+			path = Graphic;
+			sourceTree = "<group>";
+		};
+		C874742E1B00998100901AB7 /* NibSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NibSource;
+			sourceTree = "<group>";
+		};
+		C874742F1B00998100901AB7 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				C87474301B00998100901AB7 /* CocoaLumberjack */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		C87474301B00998100901AB7 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				C87474311B00998100901AB7 /* CLI */,
+				C87474341B00998100901AB7 /* CocoaLumberjack.h */,
+				C87474351B00998100901AB7 /* DDAbstractDatabaseLogger.h */,
+				C87474361B00998100901AB7 /* DDAbstractDatabaseLogger.m */,
+				C87474371B00998100901AB7 /* DDASLLogCapture.h */,
+				C87474381B00998100901AB7 /* DDASLLogCapture.m */,
+				C87474391B00998100901AB7 /* DDASLLogger.h */,
+				C874743A1B00998100901AB7 /* DDASLLogger.m */,
+				C874743B1B00998100901AB7 /* DDAssertMacros.h */,
+				C874743C1B00998100901AB7 /* DDFileLogger.h */,
+				C874743D1B00998100901AB7 /* DDFileLogger.m */,
+				C874743E1B00998100901AB7 /* DDLegacyMacros.h */,
+				C874743F1B00998100901AB7 /* DDLog+LOGV.h */,
+				C87474401B00998100901AB7 /* DDLog.h */,
+				C87474411B00998100901AB7 /* DDLog.m */,
+				C87474421B00998100901AB7 /* DDLogMacros.h */,
+				C87474431B00998100901AB7 /* DDTTYLogger.h */,
+				C87474441B00998100901AB7 /* DDTTYLogger.m */,
+				C87474451B00998100901AB7 /* Extensions */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		C87474311B00998100901AB7 /* CLI */ = {
+			isa = PBXGroup;
+			children = (
+				C87474321B00998100901AB7 /* CLIColor.h */,
+				C87474331B00998100901AB7 /* CLIColor.m */,
+			);
+			path = CLI;
+			sourceTree = "<group>";
+		};
+		C87474451B00998100901AB7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C87474461B00998100901AB7 /* DDContextFilterLogFormatter.h */,
+				C87474471B00998100901AB7 /* DDContextFilterLogFormatter.m */,
+				C87474481B00998100901AB7 /* DDDispatchQueueLogFormatter.h */,
+				C87474491B00998100901AB7 /* DDDispatchQueueLogFormatter.m */,
+				C874744A1B00998100901AB7 /* DDMultiFormatter.h */,
+				C874744B1B00998100901AB7 /* DDMultiFormatter.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87473751B00996F00901AB7 /* ZPCoderCategore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87473991B00996F00901AB7 /* Build configuration list for PBXNativeTarget "ZPCoderCategore" */;
+			buildPhases = (
+				C87473721B00996F00901AB7 /* Sources */,
+				C87473731B00996F00901AB7 /* Frameworks */,
+				C87473741B00996F00901AB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZPCoderCategore;
+			productName = ZPCoderCategore;
+			productReference = C87473761B00996F00901AB7 /* ZPCoderCategore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C874738E1B00996F00901AB7 /* ZPCoderCategoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C874739C1B00996F00901AB7 /* Build configuration list for PBXNativeTarget "ZPCoderCategoreTests" */;
+			buildPhases = (
+				C874738B1B00996F00901AB7 /* Sources */,
+				C874738C1B00996F00901AB7 /* Frameworks */,
+				C874738D1B00996F00901AB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87473911B00996F00901AB7 /* PBXTargetDependency */,
+			);
+			name = ZPCoderCategoreTests;
+			productName = ZPCoderCategoreTests;
+			productReference = C874738F1B00996F00901AB7 /* ZPCoderCategoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C874736E1B00996F00901AB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Joy;
+				TargetAttributes = {
+					C87473751B00996F00901AB7 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C874738E1B00996F00901AB7 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C87473751B00996F00901AB7;
+					};
+				};
+			};
+			buildConfigurationList = C87473711B00996F00901AB7 /* Build configuration list for PBXProject "ZPCoderCategore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C874736D1B00996F00901AB7;
+			productRefGroup = C87473771B00996F00901AB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87473751B00996F00901AB7 /* ZPCoderCategore */,
+				C874738E1B00996F00901AB7 /* ZPCoderCategoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C87473741B00996F00901AB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87473851B00996F00901AB7 /* MainTabBarController.storyboard in Resources */,
+				C874746A1B00998100901AB7 /* Images.xcassets in Resources */,
+				C874738A1B00996F00901AB7 /* LaunchScreen.xib in Resources */,
+				C87473871B00996F00901AB7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C874738D1B00996F00901AB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87473721B00996F00901AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87474601B00998100901AB7 /* ZPMethod.m in Sources */,
+				C87474711B00998100901AB7 /* DDTTYLogger.m in Sources */,
+				C87474521B00998100901AB7 /* UIBarButtonItem+ZPAddition.m in Sources */,
+				C874745B1B00998100901AB7 /* ZPArgument.m in Sources */,
+				C874744E1B00998100901AB7 /* NSArray+ZPAddition.m in Sources */,
+				C874746C1B00998100901AB7 /* DDAbstractDatabaseLogger.m in Sources */,
+				C87474591B00998100901AB7 /* NSObject+ZPMember.m in Sources */,
+				C874745A1B00998100901AB7 /* ZPTypeEncoding.m in Sources */,
+				C87474741B00998100901AB7 /* DDMultiFormatter.m in Sources */,
+				C87474541B00998100901AB7 /* UILabel+ZPAddition.m in Sources */,
+				C87474581B00998100901AB7 /* NSObject+ZPKeyValue.m in Sources */,
+				C874745E1B00998100901AB7 /* ZPIvar.m in Sources */,
+				C874746E1B00998100901AB7 /* DDASLLogger.m in Sources */,
+				C87474571B00998100901AB7 /* NSObject+ZPCoding.m in Sources */,
+				C874745F1B00998100901AB7 /* ZPMember.m in Sources */,
+				C87474511B00998100901AB7 /* NSString+ZPPathAddition.m in Sources */,
+				C874744C1B00998100901AB7 /* AppDelegate.m in Sources */,
+				C87474621B00998100901AB7 /* ZPType.m in Sources */,
+				C87474631B00998100901AB7 /* ZPAudioTool.m in Sources */,
+				C874744D1B00998100901AB7 /* CALayer+ZPAddition.m in Sources */,
+				C87474551B00998100901AB7 /* UIView+ZPAddition.m in Sources */,
+				C87474731B00998100901AB7 /* DDDispatchQueueLogFormatter.m in Sources */,
+				C8EE060C1B011D0000897A36 /* SKCaptureCodeView.m in Sources */,
+				C874746F1B00998100901AB7 /* DDFileLogger.m in Sources */,
+				C87474561B00998100901AB7 /* UIWindow+ZPAddition.m in Sources */,
+				C874745C1B00998100901AB7 /* ZPConst.m in Sources */,
+				C874744F1B00998100901AB7 /* NSDate+ZPAddition.m in Sources */,
+				C87474501B00998100901AB7 /* NSDictionary+ZPAddition.m in Sources */,
+				C874746B1B00998100901AB7 /* CLIColor.m in Sources */,
+				C87473821B00996F00901AB7 /* ViewController.m in Sources */,
+				C874746D1B00998100901AB7 /* DDASLLogCapture.m in Sources */,
+				C87474701B00998100901AB7 /* DDLog.m in Sources */,
+				C87474611B00998100901AB7 /* ZPNumber.m in Sources */,
+				C87474641B00998100901AB7 /* ZPPopMenu.m in Sources */,
+				C87474531B00998100901AB7 /* UIImage+ZPAddition.m in Sources */,
+				C87474721B00998100901AB7 /* DDContextFilterLogFormatter.m in Sources */,
+				C874737C1B00996F00901AB7 /* main.m in Sources */,
+				C874745D1B00998100901AB7 /* ZPFoundation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C874738B1B00996F00901AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87473961B00996F00901AB7 /* ZPCoderCategoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C87473911B00996F00901AB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87473751B00996F00901AB7 /* ZPCoderCategore */;
+			targetProxy = C87473901B00996F00901AB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C87473831B00996F00901AB7 /* MainTabBarController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87473841B00996F00901AB7 /* Base */,
+			);
+			name = MainTabBarController.storyboard;
+			sourceTree = "<group>";
+		};
+		C87473881B00996F00901AB7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87473891B00996F00901AB7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C87473971B00996F00901AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C87473981B00996F00901AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C874739A1B00996F00901AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZPCoderCategore/classes/Macro/Common/Prefix.pch";
+				INFOPLIST_FILE = ZPCoderCategore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C874739B1B00996F00901AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZPCoderCategore/classes/Macro/Common/Prefix.pch";
+				INFOPLIST_FILE = ZPCoderCategore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C874739D1B00996F00901AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZPCoderCategoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZPCoderCategore.app/ZPCoderCategore";
+			};
+			name = Debug;
+		};
+		C874739E1B00996F00901AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZPCoderCategoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZPCoderCategore.app/ZPCoderCategore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87473711B00996F00901AB7 /* Build configuration list for PBXProject "ZPCoderCategore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87473971B00996F00901AB7 /* Debug */,
+				C87473981B00996F00901AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87473991B00996F00901AB7 /* Build configuration list for PBXNativeTarget "ZPCoderCategore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C874739A1B00996F00901AB7 /* Debug */,
+				C874739B1B00996F00901AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C874739C1B00996F00901AB7 /* Build configuration list for PBXNativeTarget "ZPCoderCategoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C874739D1B00996F00901AB7 /* Debug */,
+				C874739E1B00996F00901AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C874736E1B00996F00901AB7 /* Project object */;
+}
